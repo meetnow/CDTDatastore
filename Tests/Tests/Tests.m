@@ -6,13 +6,12 @@
 //  Copyright (c) 2014 Michael Rhodes. All rights reserved.
 //
 
-#import <CloudantSync.h>
-#import <CDTQIndexManager.h>
-#import <CDTQIndexUpdater.h>
-#import <CDTQIndexCreator.h>
-#import <CDTQResultSet.h>
-#import <CDTQQueryExecutor.h>
-
+#import <CDTDatastore/CloudantSync.h>
+#import <CDTDatastore/CDTQIndexManager.h>
+#import <CDTDatastore/CDTQIndexUpdater.h>
+#import <CDTDatastore/CDTQIndexCreator.h>
+#import <CDTDatastore/CDTQResultSet.h>
+#import <CDTDatastore/CDTQQueryExecutor.h>
 
 SpecBegin(CloudantQuery)
 

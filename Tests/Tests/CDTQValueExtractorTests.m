@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Michael Rhodes. All rights reserved.
 //
 
-#import <CloudantSync.h>
-#import <CDTQValueExtractor.h>
+#import <CDTDatastore/CloudantSync.h>
+#import <CDTDatastore/CDTQValueExtractor.h>
 
 SpecBegin(CDTQValueExtractor)
 

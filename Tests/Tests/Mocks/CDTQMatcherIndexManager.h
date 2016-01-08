@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <CDTQIndexManager.h>
+#import <CDTDatastore/CDTQIndexManager.h>
 
 @interface CDTQMatcherIndexManager : CDTQIndexManager
 

@@ -8,11 +8,11 @@
 
 #import "CDTQMatcherQueryExecutor.h"
 
-#import <CDTQQuerySqlTranslator.h>
-#import <CDTQIndexManager.h>
+#import <CDTDatastore/CDTQQuerySqlTranslator.h>
+#import <CDTDatastore/CDTQIndexManager.h>
 #import "CDTDatastore.h"
 
-#import <FMDB.h>
+#import <FMDB/FMDB.h>
 
 @interface CDTQMatcherQueryExecutor ()
 

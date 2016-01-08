@@ -4,6 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
  workspace '../CDTDatastore'
 
 def import_pods
+    use_frameworks!
     pod "CDTDatastore", :path => "../"
     pod "MRDatabaseContentChecker"
     pod 'Specta'

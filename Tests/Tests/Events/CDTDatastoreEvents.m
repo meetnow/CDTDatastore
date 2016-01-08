@@ -8,12 +8,12 @@
 
 #import "CloudantSyncTests.h"
 
-#import <CloudantSync.h>
+#import <CDTDatastore/CloudantSync.h>
 #import <XCTest/XCTest.h>
-#import <TD_Body.h>
-#import <TD_Revision.h>
-#import <TD_Database.h>
-#import <TD_Database+Insertion.h>
+#import <CDTDatastore/TD_Body.h>
+#import <CDTDatastore/TD_Revision.h>
+#import <CDTDatastore/TD_Database.h>
+#import <CDTDatastore/TD_Database+Insertion.h>
 
 #pragma mark EventWatcher
 

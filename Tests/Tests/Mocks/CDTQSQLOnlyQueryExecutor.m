@@ -7,7 +7,7 @@
 //
 
 #import "CDTQSQLOnlyQueryExecutor.h"
-#import <CDTQUnindexedMatcher.h>
+#import <CDTDatastore/CDTQUnindexedMatcher.h>
 
 @implementation CDTQSQLOnlyQueryExecutor
 

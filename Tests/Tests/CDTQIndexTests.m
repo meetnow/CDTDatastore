@@ -13,8 +13,8 @@
 //  either express or implied. See the License for the specific language governing permissions
 //  and limitations under the License.
 
-#import <CloudantSync.h>
-#import <CDTQIndex.h>
+#import <CDTDatastore/CloudantSync.h>
+#import <CDTDatastore/CDTQIndex.h>
 #import "Matchers/CDTQContainsInAnyOrderMatcher.h"
 
 SpecBegin(CDTQIndex)

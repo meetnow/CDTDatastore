@@ -26,6 +26,7 @@
 		27C1CDF0184E2D9C000604EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C1CDEE184E2D9C000604EF /* InfoPlist.strings */; };
 		27C1CDF2184E2D9C000604EF /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1CDF1184E2D9C000604EF /* ProjectTests.m */; };
 		9F954F9F18AB5B5A00368057 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F954F9E18AB5B5A00368057 /* libPods-ios.a */; };
+		CC387AC14A66379F3AAC0CA4 /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636AE9E4A5DDFC7A7F2AA609 /* Pods_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		27C1CDED184E2D9C000604EF /* ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		27C1CDEF184E2D9C000604EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27C1CDF1184E2D9C000604EF /* ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTests.m; sourceTree = "<group>"; };
+		636AE9E4A5DDFC7A7F2AA609 /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE540CFAB7B37B690420442 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		9C2295C631C09EA118AFB765 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		9F954F9E18AB5B5A00368057 /* libPods-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ios.a"; path = "../Tests/Pods/build/Debug-iphoneos/libPods-ios.a"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				27C1CDC9184E2D9C000604EF /* CoreGraphics.framework in Frameworks */,
 				27C1CDCB184E2D9C000604EF /* UIKit.framework in Frameworks */,
 				27C1CDC7184E2D9C000604EF /* Foundation.framework in Frameworks */,
+				CC387AC14A66379F3AAC0CA4 /* Pods_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +132,7 @@
 				27C1CDC8184E2D9C000604EF /* CoreGraphics.framework */,
 				27C1CDCA184E2D9C000604EF /* UIKit.framework */,
 				27C1CDE5184E2D9C000604EF /* XCTest.framework */,
+				636AE9E4A5DDFC7A7F2AA609 /* Pods_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

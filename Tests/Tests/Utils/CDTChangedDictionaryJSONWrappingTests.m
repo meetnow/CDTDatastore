@@ -16,8 +16,8 @@
 
 #import <XCTest/XCTest.h>
 
-#import <CDTChangedDictionary.h>
-#import <CDTChangedArray.h>
+#import <CDTDatastore/CDTChangedDictionary.h>
+#import <CDTDatastore/CDTChangedArray.h>
 
 @interface CDTChangedDictionaryJSONWrappingTests : XCTestCase
 

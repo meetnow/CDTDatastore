@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Michael Rhodes. All rights reserved.
 //
 
-#import <CloudantSync.h>
-#import <CDTDatastore+Query.h>
-#import <CDTQResultSet.h>
+#import <CDTDatastore/CloudantSync.h>
+#import <CDTDatastore/CDTDatastore+Query.h>
+#import <CDTDatastore/CDTQResultSet.h>
 #import <objc/runtime.h>
 
 SpecBegin(CDTDatastoreQuery) describe(@"When using datastore query", ^{

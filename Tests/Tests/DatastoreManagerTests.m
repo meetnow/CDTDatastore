@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CloudantSync.h>
+#import <CDTDatastore/CloudantSync.h>
 #import "CloudantSyncTests.h"
 #import "TDInternal.h"
 #import "FMDatabase.h"

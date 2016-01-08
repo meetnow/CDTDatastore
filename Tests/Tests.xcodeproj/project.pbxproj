@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009D4E71AED34A54853B7F51 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD8D50209E84CD981F3FA7A /* libPods-osx.a */; };
 		27389E12185345FD0027A404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27389E11185345FD0027A404 /* Foundation.framework */; };
 		27389E14185345FD0027A404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27389E13185345FD0027A404 /* UIKit.framework */; };
 		27389E1A185345FD0027A404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27389E18185345FD0027A404 /* InfoPlist.strings */; };
@@ -28,7 +27,7 @@
 		27D96E4518E1E0D400DEA006 /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27D96E4218E1E0D400DEA006 /* lorem.txt */; };
 		27F43D4918E99C31003E8422 /* AmazonMD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F43D4818E99C31003E8422 /* AmazonMD5Util.m */; };
 		27F43D4A18E99C31003E8422 /* AmazonMD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F43D4818E99C31003E8422 /* AmazonMD5Util.m */; };
-		640AB8661E6344B98E64E18E /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D0295E40984E2788387EEE /* libPods-ios.a */; };
+		6A15FBE555B16C7AB0D33D3F /* Pods_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD77F54E13CC6A74B0BBF2E8 /* Pods_osx.framework */; };
 		8E82CAB11A83C3700046DA9D /* schema6to7upgrade.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 8E82CAB01A83C3670046DA9D /* schema6to7upgrade.touchdb */; };
 		8E82CAB21A83C3700046DA9D /* schema6to7upgrade.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 8E82CAB01A83C3670046DA9D /* schema6to7upgrade.touchdb */; };
 		9823C84B1B8B1ECD00154EC5 /* CDTURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9823C84A1B8B1ECD00154EC5 /* CDTURLSessionTests.m */; };
@@ -45,6 +44,7 @@
 		989158E11B8C841500FFF509 /* CDTURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9823C84A1B8B1ECD00154EC5 /* CDTURLSessionTests.m */; };
 		989E6E22198799AE00FB8510 /* DatastoreCRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E6E21198799AE00FB8510 /* DatastoreCRUD.m */; };
 		989E6E23198799AE00FB8510 /* DatastoreCRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E6E21198799AE00FB8510 /* DatastoreCRUD.m */; };
+		98B97AF71C402BD8001B61E0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B97AF61C402BD8001B61E0 /* libsqlite3.tbd */; };
 		98BB740019E5927600C57866 /* CloudantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB73FF19E5927600C57866 /* CloudantTests.m */; };
 		98BB740119E5927600C57866 /* CloudantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB73FF19E5927600C57866 /* CloudantTests.m */; };
 		98DDEB9F1A41CD3400767178 /* DatastoreManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DDEB9E1A41CD3400767178 /* DatastoreManagerTests.m */; };
@@ -132,6 +132,7 @@
 		CDD0251A1B0F5C7C007D185D /* CDTBlobHandleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD025181B0F5C7C007D185D /* CDTBlobHandleFactoryTests.m */; };
 		CDD0251C1B0F631C007D185D /* TDBlobStoreEncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD0251B1B0F631C007D185D /* TDBlobStoreEncryptionTests.m */; };
 		CDD0251D1B0F631C007D185D /* TDBlobStoreEncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD0251B1B0F631C007D185D /* TDBlobStoreEncryptionTests.m */; };
+		D01DD7ED29FBDC7CCD4FCEBC /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8823617D3AE2909AB7971404 /* Pods_ios.framework */; };
 		EC0C833C1AB217290051042F /* CDTDatastoreQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0C831F1AB217290051042F /* CDTDatastoreQueryTests.m */; };
 		EC0C833D1AB217290051042F /* CDTDatastoreQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0C831F1AB217290051042F /* CDTDatastoreQueryTests.m */; };
 		EC0C833E1AB217290051042F /* CDTQFilterFieldsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0C83201AB217290051042F /* CDTQFilterFieldsTest.m */; };
@@ -203,6 +204,7 @@
 		27F43D4818E99C31003E8422 /* AmazonMD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMD5Util.m; sourceTree = "<group>"; };
 		5F1D517F9EA361A799566573 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		635BE7F70A3A4DFFA9455CDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8823617D3AE2909AB7971404 /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E82CAB01A83C3670046DA9D /* schema6to7upgrade.touchdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = schema6to7upgrade.touchdb; path = Assets/schema6to7upgrade.touchdb; sourceTree = "<group>"; };
 		9823C84A1B8B1ECD00154EC5 /* CDTURLSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTURLSessionTests.m; sourceTree = "<group>"; };
 		985849ED1BA07741009475C9 /* CDTSessionCookieInterceptorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTSessionCookieInterceptorTests.m; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		985F84D3198BD3A4004D8713 /* AttachmentCRUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachmentCRUD.m; path = Attachments/AttachmentCRUD.m; sourceTree = "<group>"; };
 		989158DD1B8B7D6300FFF509 /* CDTURLSessionTaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTURLSessionTaskTests.m; sourceTree = "<group>"; };
 		989E6E21198799AE00FB8510 /* DatastoreCRUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatastoreCRUD.m; sourceTree = "<group>"; };
+		98B97AF61C402BD8001B61E0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		98BB73FE19E5927600C57866 /* CloudantTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudantTests.h; sourceTree = "<group>"; };
 		98BB73FF19E5927600C57866 /* CloudantTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudantTests.m; sourceTree = "<group>"; };
 		98DDEB9E1A41CD3400767178 /* DatastoreManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatastoreManagerTests.m; sourceTree = "<group>"; };
@@ -236,8 +239,6 @@
 		9F95D60F18CF6A580006D349 /* DBQueryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQueryUtils.m; sourceTree = "<group>"; };
 		9FC082961913378F0024EA1E /* DatastoreConflictResolvers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatastoreConflictResolvers.h; sourceTree = "<group>"; };
 		9FC082971913378F0024EA1E /* DatastoreConflictResolvers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatastoreConflictResolvers.m; sourceTree = "<group>"; };
-		BBD8D50209E84CD981F3FA7A /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0D0295E40984E2788387EEE /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00CBBD1AC7703800C3F2D5 /* emptyencryptedindex.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = emptyencryptedindex.sqlite; path = Assets/emptyencryptedindex.sqlite; sourceTree = "<group>"; };
 		CD0D10EB1AB09CE8003315B5 /* TD_DatabaseDeletionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TD_DatabaseDeletionTests.m; sourceTree = "<group>"; };
 		CD196E661B18C6320039133F /* schema100_1Bonsai_2Lorem.touchdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = schema100_1Bonsai_2Lorem.touchdb; path = Assets/schema100_1Bonsai_2Lorem.touchdb; sourceTree = "<group>"; };
@@ -266,6 +267,7 @@
 		CDBC57351AE66CD700CF9E6B /* CDTEncryptionKeychainProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainProviderTests.m; sourceTree = "<group>"; };
 		CDD025181B0F5C7C007D185D /* CDTBlobHandleFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTBlobHandleFactoryTests.m; sourceTree = "<group>"; };
 		CDD0251B1B0F631C007D185D /* TDBlobStoreEncryptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBlobStoreEncryptionTests.m; sourceTree = "<group>"; };
+		DD77F54E13CC6A74B0BBF2E8 /* Pods_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0C831F1AB217290051042F /* CDTDatastoreQueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTDatastoreQueryTests.m; sourceTree = "<group>"; };
 		EC0C83201AB217290051042F /* CDTQFilterFieldsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTQFilterFieldsTest.m; sourceTree = "<group>"; };
 		EC0C83211AB217290051042F /* CDTQIndexCreatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTQIndexCreatorTests.m; sourceTree = "<group>"; };
@@ -304,7 +306,7 @@
 			files = (
 				27389E14185345FD0027A404 /* UIKit.framework in Frameworks */,
 				27389E12185345FD0027A404 /* Foundation.framework in Frameworks */,
-				640AB8661E6344B98E64E18E /* libPods-ios.a in Frameworks */,
+				D01DD7ED29FBDC7CCD4FCEBC /* Pods_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,8 +314,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B97AF71C402BD8001B61E0 /* libsqlite3.tbd in Frameworks */,
 				9F0D23E918888C6C00D3D04E /* Foundation.framework in Frameworks */,
-				009D4E71AED34A54853B7F51 /* libPods-osx.a in Frameworks */,
+				6A15FBE555B16C7AB0D33D3F /* Pods_osx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,12 +347,13 @@
 		27389E0E185345FD0027A404 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98B97AF61C402BD8001B61E0 /* libsqlite3.tbd */,
 				9F0D23E818888C6C00D3D04E /* Foundation.framework */,
 				27389E11185345FD0027A404 /* Foundation.framework */,
 				27389E13185345FD0027A404 /* UIKit.framework */,
 				635BE7F70A3A4DFFA9455CDC /* libPods.a */,
-				C0D0295E40984E2788387EEE /* libPods-ios.a */,
-				BBD8D50209E84CD981F3FA7A /* libPods-osx.a */,
+				8823617D3AE2909AB7971404 /* Pods_ios.framework */,
+				DD77F54E13CC6A74B0BBF2E8 /* Pods_osx.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

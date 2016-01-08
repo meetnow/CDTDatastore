@@ -16,7 +16,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import <CDTChangedArray.h>
+#import <CDTDatastore/CDTChangedArray.h>
 
 @interface CDTChangedArrayTests : XCTestCase
 

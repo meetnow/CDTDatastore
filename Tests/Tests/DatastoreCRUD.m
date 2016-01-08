@@ -15,7 +15,7 @@
 
 #import <XCTest/XCTest.h>
 #import <Foundation/Foundation.h>
-#import <MRDatabaseContentChecker.h>
+#import <MRDatabaseContentChecker/MRDatabaseContentChecker.h>
 
 #import "CloudantSyncTests.h"
 
