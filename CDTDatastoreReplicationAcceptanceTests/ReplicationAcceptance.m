@@ -13,7 +13,7 @@
 #import <CDTDatastore/CloudantSync.h>
 #import <CDTDatastore/CloudantSyncEncryption.h>
 
-#import <UNIRest.UNIRest.h>
+#import <UNIRest/UNIRest.h>
 #import <TRVSMonitor/TRVSMonitor.h>
 
 #import "CloudantReplicationBase.h"
