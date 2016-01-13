@@ -568,6 +568,10 @@
 		98F786E51C456DA000515CC3 /* CDTHelperFixedKeyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F786E21C456DA000515CC3 /* CDTHelperFixedKeyProvider.m */; };
 		98F786E61C456DA000515CC3 /* CDTHelperOneUseKeyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F786E41C456DA000515CC3 /* CDTHelperOneUseKeyProvider.m */; };
 		98F786E91C45732400515CC3 /* CloudantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F786E81C45732400515CC3 /* CloudantTests.m */; };
+		98F786EB1C4658A500515CC3 /* emptyencryptedindex.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98F786EA1C4658A500515CC3 /* emptyencryptedindex.sqlite */; };
+		98F786ED1C4658E800515CC3 /* emptyencrypteddb.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 98F786EC1C4658E800515CC3 /* emptyencrypteddb.touchdb */; };
+		98F786EF1C46597A00515CC3 /* schema100_1Bonsai_2Lorem.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 98F786EE1C46597A00515CC3 /* schema100_1Bonsai_2Lorem.touchdb */; };
+		98F786F11C465BC500515CC3 /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 98F786F01C465BC500515CC3 /* lorem.txt */; };
 		A55CCB91B7DE75F43CA6ABE5 /* Pods_CDTDatastore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1D73EA6E2E9D3C00DBD306 /* Pods_CDTDatastore.framework */; };
 /* End PBXBuildFile section */
 
@@ -982,6 +986,10 @@
 		98F786E41C456DA000515CC3 /* CDTHelperOneUseKeyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTHelperOneUseKeyProvider.m; sourceTree = "<group>"; };
 		98F786E71C45732400515CC3 /* CloudantTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudantTests.h; sourceTree = "<group>"; };
 		98F786E81C45732400515CC3 /* CloudantTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudantTests.m; sourceTree = "<group>"; };
+		98F786EA1C4658A500515CC3 /* emptyencryptedindex.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptyencryptedindex.sqlite; sourceTree = "<group>"; };
+		98F786EC1C4658E800515CC3 /* emptyencrypteddb.touchdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptyencrypteddb.touchdb; sourceTree = "<group>"; };
+		98F786EE1C46597A00515CC3 /* schema100_1Bonsai_2Lorem.touchdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = schema100_1Bonsai_2Lorem.touchdb; sourceTree = "<group>"; };
+		98F786F01C465BC500515CC3 /* lorem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lorem.txt; sourceTree = "<group>"; };
 		9CF5538A6E36345FAE69361C /* Pods-CDTDatastoreEncryptionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDTDatastoreEncryptionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDTDatastoreEncryptionTests/Pods-CDTDatastoreEncryptionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB8763D76D6021CBBB1208E5 /* Pods-CDTDatastoreEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDTDatastoreEncryption.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDTDatastoreEncryption/Pods-CDTDatastoreEncryption.release.xcconfig"; sourceTree = "<group>"; };
 		B29DC83928294739C2329857 /* Pods_CDTDatastoreReplicationAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDTDatastoreReplicationAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1661,6 +1669,10 @@
 		98F77EFE1C4404B700515CC3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				98F786F01C465BC500515CC3 /* lorem.txt */,
+				98F786EE1C46597A00515CC3 /* schema100_1Bonsai_2Lorem.touchdb */,
+				98F786EC1C4658E800515CC3 /* emptyencrypteddb.touchdb */,
+				98F786EA1C4658A500515CC3 /* emptyencryptedindex.sqlite */,
 				98F77EFF1C4404B700515CC3 /* emptynonencryptedindex.sqlite */,
 			);
 			path = Assets;
@@ -2174,7 +2186,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F786F11C465BC500515CC3 /* lorem.txt in Resources */,
 				98F77F041C4404B700515CC3 /* emptynonencryptedindex.sqlite in Resources */,
+				98F786ED1C4658E800515CC3 /* emptyencrypteddb.touchdb in Resources */,
+				98F786EF1C46597A00515CC3 /* schema100_1Bonsai_2Lorem.touchdb in Resources */,
+				98F786EB1C4658A500515CC3 /* emptyencryptedindex.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
