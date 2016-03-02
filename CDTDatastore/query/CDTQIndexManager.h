@@ -14,6 +14,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 extern NSString *const CDTQIndexManagerErrorDomain;
 extern NSString *const kCDTQIndexTablePrefix;
 extern NSString *const kCDTQIndexMetadataTableName;
@@ -29,7 +31,7 @@ extern NSString *const kCDTQIndexMetadataTableName;
 @property (nonatomic, strong) NSString *sqlWithPlaceholders;
 @property (nonatomic, strong) NSArray *placeholderValues;
 
-+ (CDTQSqlParts *)partsForSql:(NSString *)sql parameters:(NSArray *)parameters;
++ (nullable CDTQSqlParts *)partsForSql:(NSString *)sql parameters:(NSArray *)parameters;
 
 @end
 
@@ -75,47 +77,49 @@ typedef NS_ENUM(NSInteger, CDTQQueryError) {
 /**
  Constructs a new CDTQIndexManager which indexes documents in `datastore`
  */
-+ (CDTQIndexManager *)managerUsingDatastore:(CDTDatastore *)datastore
-                                      error:(NSError *__autoreleasing *)error;
++ (nullable CDTQIndexManager *)
+managerUsingDatastore:(CDTDatastore *)datastore
+                error:(NSError *__autoreleasing __nullable *__nullable)error;
 
-- (instancetype)initUsingDatastore:(CDTDatastore *)datastore
-                             error:(NSError *__autoreleasing *)error;
+- (nullable instancetype)initUsingDatastore:(CDTDatastore *)datastore
+                                      error:(NSError *__autoreleasing __nullable *__nullable)error;
 
-- (NSDictionary * /* NSString -> NSArray[NSString]*/)listIndexes;
+- (NSDictionary<NSString *, NSArray<NSString *> *> *)listIndexes;
 
 /** Internal */
-+ (NSDictionary /* NSString -> NSArray[NSString]*/ *)listIndexesInDatabaseQueue:
-        (FMDatabaseQueue *)db;
++ (NSDictionary<NSString *, NSArray<NSString *> *> *)listIndexesInDatabaseQueue:
+    (FMDatabaseQueue *)db;
 /** Internal */
-+ (NSDictionary /* NSString -> NSArray[NSString]*/ *)listIndexesInDatabase:(FMDatabase *)db;
++ (NSDictionary<NSString *, NSArray<NSString *> *> *)listIndexesInDatabase:(FMDatabase *)db;
 
-- (NSString *)ensureIndexed:(NSArray * /* NSString */)fieldNames withName:(NSString *)indexName;
+- (NSString *)ensureIndexed:(NSArray<NSString *> *)fieldNames withName:(NSString *)indexName;
 
-- (NSString *)ensureIndexed:(NSArray * /* NSString */)fieldNames
+- (NSString *)ensureIndexed:(NSArray<NSString *> *)fieldNames
                    withName:(NSString *)indexName
                        type:(NSString *)type;
 
-- (NSString *)ensureIndexed:(NSArray * /* NSString */)fieldNames
+- (NSString *)ensureIndexed:(NSArray<NSString *> *)fieldNames
                    withName:(NSString *)indexName
                        type:(NSString *)type
-                   settings:(NSDictionary *)indexSettings;
+                   settings:(nullable NSDictionary *)indexSettings;
 
 - (BOOL)deleteIndexNamed:(NSString *)indexName;
 
 - (BOOL)updateAllIndexes;
 
-- (CDTQResultSet *)find:(NSDictionary *)query;
+- (nullable CDTQResultSet *)find:(NSDictionary *)query;
 
-- (CDTQResultSet *)find:(NSDictionary *)query
-                   skip:(NSUInteger)skip
-                  limit:(NSUInteger)limit
-                 fields:(NSArray *)fields
-                   sort:(NSArray *)sortDocument;
+- (nullable CDTQResultSet *)find:(NSDictionary *)query
+                            skip:(NSUInteger)skip
+                           limit:(NSUInteger)limit
+                          fields:(nullable NSArray *)fields
+                            sort:(nullable NSArray *)sortDocument;
 
 /** Internal */
-+ (NSString *)tableNameForIndex:(NSString *)indexName;
++ (nullable NSString *)tableNameForIndex:(NSString *)indexName;
 
 /** Internal */
 + (BOOL)ftsAvailableInDatabase:(FMDatabaseQueue *)db;
 
 @end
+NS_ASSUME_NONNULL_END
