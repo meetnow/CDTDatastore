@@ -601,6 +601,10 @@
 		9891D10B1C511A820068FD1A /* CDTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9891D1091C511A820068FD1A /* CDTDefines.h */; };
 		9891D10C1C511A820068FD1A /* CDTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9891D1091C511A820068FD1A /* CDTDefines.h */; };
 		9891D10D1C511A820068FD1A /* CDTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9891D1091C511A820068FD1A /* CDTDefines.h */; };
+		98C367E91C91B51100C4059D /* CDTReplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77E181C44044000515CC3 /* CDTReplicationTests.m */; };
+		98C367EA1C91B51300C4059D /* CDTReplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77E181C44044000515CC3 /* CDTReplicationTests.m */; };
+		98C367EB1C91B51600C4059D /* CDTReplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77E181C44044000515CC3 /* CDTReplicationTests.m */; };
+		98C367EC1C91B51900C4059D /* CDTReplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77E181C44044000515CC3 /* CDTReplicationTests.m */; };
 		98F005461C46A0F900A5FB8C /* CDTDatastoreEncryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F786BE1C456B1300515CC3 /* CDTDatastoreEncryption.framework */; };
 		98F77B3A1C43FC9F00515CC3 /* CDTDatastore.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F77B391C43FC9F00515CC3 /* CDTDatastore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F77B411C43FC9F00515CC3 /* CDTDatastore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */; };
@@ -4223,6 +4227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C367EC1C91B51900C4059D /* CDTReplicationTests.m in Sources */,
 				987384DF1C47B45100937212 /* DatastoreManagerEncryptionTests.m in Sources */,
 				987384E01C47B45100937212 /* CDTEncryptionKeychainUtilsPBKDF2Tests.m in Sources */,
 				987384E11C47B45100937212 /* TDBlobStoreEncryptionTests.m in Sources */,
@@ -4280,6 +4285,7 @@
 				987385351C47B45600937212 /* CDTHelperFixedKeyProvider.m in Sources */,
 				987385361C47B45600937212 /* CloudantTests.m in Sources */,
 				987385371C47B45600937212 /* CDTQMatcherIndexManager.m in Sources */,
+				98C367EB1C91B51600C4059D /* CDTReplicationTests.m in Sources */,
 				987385381C47B45600937212 /* TDMultipartWriterTests.m in Sources */,
 				987385391C47B45600937212 /* TD_DatabaseManagerTests.m in Sources */,
 				9873853B1C47B45600937212 /* TDCollateJSONTests.m in Sources */,
@@ -4475,6 +4481,7 @@
 				987382FF1C47B1DD00937212 /* CDTHelperFixedKeyProvider.m in Sources */,
 				98F77E8C1C44044000515CC3 /* CloudantTests.m in Sources */,
 				98F77EA91C44044000515CC3 /* CDTQMatcherIndexManager.m in Sources */,
+				98C367E91C91B51100C4059D /* CDTReplicationTests.m in Sources */,
 				98F77EB91C44044000515CC3 /* TDMultipartWriterTests.m in Sources */,
 				98F77EB11C44044000515CC3 /* TD_DatabaseManagerTests.m in Sources */,
 				98F77EB51C44044000515CC3 /* TDCollateJSONTests.m in Sources */,
@@ -4532,6 +4539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C367EA1C91B51300C4059D /* CDTReplicationTests.m in Sources */,
 				98F77F071C4404B700515CC3 /* DatastoreManagerEncryptionTests.m in Sources */,
 				98F786DE1C456C5500515CC3 /* CDTEncryptionKeychainUtilsPBKDF2Tests.m in Sources */,
 				98F786DF1C456C5500515CC3 /* TDBlobStoreEncryptionTests.m in Sources */,
