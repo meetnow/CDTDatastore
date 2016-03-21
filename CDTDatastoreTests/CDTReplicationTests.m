@@ -31,12 +31,6 @@
 #import <OHHTTPStubs/OHHTTPStubsResponse+JSON.h>
 #import <OCMock/OCMock.h>
 
-
-@interface CDTAbstractReplication (Interceptors)
-//expose the interceptor property for inspection.
-@property (nonnull, nonatomic, readwrite, strong) NSArray *httpInterceptors;
-@end
-
 @interface ChangesFeedRequestCheckInterceptor : NSObject <CDTHTTPInterceptor>
 
 @property (nonatomic) BOOL changesFeedRequestMade;
