@@ -14,7 +14,7 @@ EOT
 
 Pod::Spec.new do |s|
   s.name         = "CDTDatastore"
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = "CDTDatastore is a document datastore which syncs."
   s.description  = <<-DESC
                     CDTDatastore is a JSON document datastore which speaks the
@@ -48,11 +48,11 @@ Pod::Spec.new do |s|
 
         if subspec_label == 'standard'
           sp.library = 'sqlite3', 'z'
-          sp.dependency 'FMDB', '= 2.6'
+          sp.dependency 'FMDB', '= 2.6.3'
         else
           sp.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DENCRYPT_DATABASE' }
           sp.library = 'z'
-          sp.dependency 'FMDB/SQLCipher', '= 2.6'
+          sp.dependency 'FMDB/SQLCipher', '= 2.6.3'
 
           # Some CDTDatastore classes use SQLite functions, therefore we have
           # to include 'SQLCipher' although 'FMDB/SQLCipher' also depends on it
