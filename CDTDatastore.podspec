@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 
                     * Replicates with Cloudant and CouchDB.
                    DESC
-  s.homepage     = "https://bitbucket.org/meet-now/mn-cdt-datastore"
+  s.homepage     = "https://github.com/meetnow/CDTDatastore"
   s.license      = {:type => 'Apache, Version 2.0', :text => license}
   s.author       = { "Cloudant, Inc." => "support@cloudant.com" }
-  s.source       = { :git => "git@bitbucket.org:meet-now/mn-cdt-datastore.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/meetnow/CDTDatastore.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
