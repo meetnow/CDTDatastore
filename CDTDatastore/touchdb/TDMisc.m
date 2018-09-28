@@ -27,6 +27,16 @@
 #define COMMON_DIGEST_FOR_OPENSSL
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonHMAC.h>
+#define SHA_DIGEST_LENGTH CC_SHA1_DIGEST_LENGTH
+#define SHA_CTX CC_SHA1_CTX
+#define SHA1_Init CC_SHA1_Init
+#define SHA1_Update CC_SHA1_Update
+#define SHA1_Final CC_SHA1_Final
+#define SHA256_DIGEST_LENGTH CC_SHA256_DIGEST_LENGTH
+#define SHA256_CTX CC_SHA256_CTX
+#define SHA256_Init CC_SHA256_Init
+#define SHA256_Update CC_SHA256_Update
+#define SHA256_Final CC_SHA256_Final
 #endif
 
 NSString* TDCreateUUID()

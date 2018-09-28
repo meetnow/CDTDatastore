@@ -16,6 +16,10 @@
 #else
 #define COMMON_DIGEST_FOR_OPENSSL
 #import <CommonCrypto/CommonDigest.h>
+#define SHA_DIGEST_LENGTH CC_SHA1_DIGEST_LENGTH
+#define MD5_DIGEST_LENGTH CC_MD5_DIGEST_LENGTH
+#define SHA_CTX CC_SHA1_CTX
+#define MD5_CTX CC_MD5_CTX
 #endif
 
 #import "CDTEncryptionKeyProvider.h"

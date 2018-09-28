@@ -31,6 +31,13 @@
 #ifdef GNUSTEP
 #define NSDataReadingMappedIfSafe NSMappedRead
 #define NSDataWritingAtomic NSAtomicWrite
+#else
+#define MD5_Init CC_MD5_Init
+#define MD5_Update CC_MD5_Update
+#define MD5_Final CC_MD5_Final
+#define SHA1_Init CC_SHA1_Init
+#define SHA1_Update CC_SHA1_Update
+#define SHA1_Final CC_SHA1_Final
 #endif
 
 NSString *const CDTBlobStoreErrorDomain = @"CDTBlobStoreErrorDomain";
